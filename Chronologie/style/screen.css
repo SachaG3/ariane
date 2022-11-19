@@ -1,0 +1,40 @@
+body{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	
+}
+nav{
+	grid-column: span 4;
+}
+header{
+	grid-column: span 4;
+	text-align: center;
+}
+h1{
+	font-size: 300%;
+	color: rgba(136, 77, 167, 0.75);
+}
+article{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	
+}
+h3{
+	text-align: center;
+	font-size: 150%;
+	color: rgba(136, 77, 167, 0.75);
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-width: 100%;
+	border-radius: 1em;
+	max-height: 100%;
+}
+.lien{
+	margin-top: auto;
+	margin-bottom: auto;
+	color: brown;
+}

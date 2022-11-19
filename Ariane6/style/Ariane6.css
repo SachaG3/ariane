@@ -1,0 +1,38 @@
+body{
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: 0.25fr repeat(4, 20%);
+	gap: 2%;
+}
+nav{
+	grid-column: span 8;
+}
+header{
+	grid-column: span 8;
+}
+h1{
+	font-size: 300%;
+	color: rgba(136, 77, 167, 0.75);
+	text-align: center;
+}
+.histoire{
+	grid-column-start: 2;
+	grid-column-end: 8;
+	max-height: 100%;
+	max-width: 100%;
+}
+figure{
+
+	grid-column: span 9;
+	grid-row: span 2;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 3%;
+}
+
+img{
+	border-radius: 1em;
+	height: 100%;
+	width: 100%;
+}
